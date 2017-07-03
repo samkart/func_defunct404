@@ -1,6 +1,6 @@
 #' @export
 
-readfile <- function(filepath, sheet){
+readfile <- function(filepath, sheet = 1){
   if (stringr::str_sub(filepath,(stringr::str_length(filepath)-2),-1) == "csv"){
     read.csv(filepath)
   } else if (stringr::str_sub(filepath,(stringr::str_length(filepath)-2),-1) == "xls" ||
