@@ -16,5 +16,5 @@ readfile <- function(filepath, sheet = 1){
 # Import file function by SAM
 # Can be used to import any file, except SPSS files.
 # Who the FUCK uses SPSS anyaway?!
-# Dependencies: "stringr", "readxl", "haven"
+# Dependencies: "stringr", "readxl", "haven", "readr"
 # "haven" used for importing SAS & STATA files
